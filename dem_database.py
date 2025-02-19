@@ -28,9 +28,9 @@ ON ddn.COUNTRY_ID = dcn.COUNTRY_ID;
 
 # step 2, delete from step 1
 arctic_countries = (
-    "Faroe Islands", "Siberia", "Finland",
+    "Russian Federation", "Faroe Islands", "Siberia", "Finland",
     "International", "Norway", "Canada", "Sweden",
-    "Iceland", "United States", "Russia"
+    "Iceland", "United States"
 )
 
 cursor.execute(f"""
