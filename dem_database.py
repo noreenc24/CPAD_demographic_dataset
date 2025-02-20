@@ -30,7 +30,7 @@ ON ddn.COUNTRY_ID = dcn.COUNTRY_ID;
 arctic_countries = (
     "Russian Federation", "Faroe Islands", "Siberia", "Finland",
     "International", "Norway", "Canada", "Sweden",
-    "Iceland", "United States"
+    "Iceland", "United States of America"
 )
 
 cursor.execute(f"""
